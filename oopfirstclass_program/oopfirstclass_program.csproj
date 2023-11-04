@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E98E877-C16A-4862-9CDC-2EC714E28666}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>oopfirstclass_program</RootNamespace>
+    <AssemblyName>oopfirstclass_program</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>oopfirstclass_program.Arrayfobject.product1</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="abstractprogram\Areacircelpro.cs" />
+    <Compile Include="account.cs" />
+    <Compile Include="Arrayfobject\product1.cs" />
+    <Compile Include="arraylistcollection\arraylist1.cs" />
+    <Compile Include="arraylistcollection\stackpro.cs" />
+    <Compile Include="Arraypro\alternate.cs" />
+    <Compile Include="Arraypro\ascending.cs" />
+    <Compile Include="Arraypro\avgfind.cs" />
+    <Compile Include="Arraypro\CheckEquality.cs" />
+    <Compile Include="Arraypro\decending.cs" />
+    <Compile Include="Arraypro\duplicate.cs" />
+    <Compile Include="Arraypro\ele_present.cs" />
+    <Compile Include="Arraypro\even.cs" />
+    <Compile Include="Arraypro\evenodd.cs" />
+    <Compile Include="Arraypro\evensum.cs" />
+    <Compile Include="Arraypro\foreachp.cs">
+      <CustomToolNamespace>ro</CustomToolNamespace>
+    </Compile>
+    <Compile Include="Arraypro\maxminnum.cs" />
+    <Compile Include="Arraypro\negative.cs" />
+    <Compile Include="Arraypro\negativenum.cs" />
+    <Compile Include="Arraypro\oddposition.cs" />
+    <Compile Include="Arraypro\primearray.cs" />
+    <Compile Include="Arraypro\program1.cs" />
+    <Compile Include="Arraypro\reversearray.cs" />
+    <Compile Include="Arraypro\searchnum.cs" />
+    <Compile Include="Arraypro\secondsmall.cs" />
+    <Compile Include="Arraypro\tranverse.cs" />
+    <Compile Include="Arraypro\twoDforeach.cs" />
+    <Compile Include="Arraypro\twodimen.cs" />
+    <Compile Include="Arraypro\twomethodreturn.cs" />
+    <Compile Include="Arraypro\unique.cs" />
+    <Compile Include="Arraypro\userip.cs" />
+    <Compile Include="assignment\accountpro.cs" />
+    <Compile Include="assignment\arthmethic.cs" />
+    <Compile Include="assignment\assignmeng5.cs" />
+    <Compile Include="assignment\cubepro.cs" />
+    <Compile Include="assignment\squ.cs" />
+    <Compile Include="assignment\studentclass.cs" />
+    <Compile Include="assignment\studentper.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="book.cs" />
+    <Compile Include="calculation.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="date.cs" />
+    <Compile Include="delegatepro\assign1.cs" />
+    <Compile Include="employee.cs" />
+    <Compile Include="emp_tostring.cs" />
+    <Compile Include="enumprogram\dayswitch.cs" />
+    <Compile Include="enumprogram\enum1.cs" />
+    <Compile Include="enumprogram\myday.cs" />
+    <Compile Include="enumrablepro\comparablenongenric.cs" />
+    <Compile Include="enumrablepro\enumbrable1.cs" />
+    <Compile Include="enumrablepro\icompare.cs" />
+    <Compile Include="exceptionhandle\assign2.cs" />
+    <Compile Include="exceptionhandle\assign3.cs" />
+    <Compile Include="exceptionhandle\assign4.cs" />
+    <Compile Include="exceptionhandle\assign5.cs" />
+    <Compile Include="exceptionhandle\delragte.cs" />
+    <Compile Include="exceptionhandle\employee.cs" />
+    <Compile Include="exceptionhandle\event1.cs" />
+    <Compile Include="exceptionhandle\event2.cs" />
+    <Compile Include="exceptionhandle\assign1.cs" />
+    <Compile Include="exceptionhandle\student.cs" />
+    <Compile Include="exceptionhandle\try1.cs" />
+    <Compile Include="exceptionhandle\tryP.cs" />
+    <Compile Include="genricpro\hashset1.cs" />
+    <Compile Include="genric_nongenricassignment\assig1list.cs" />
+    <Compile Include="genric_nongenricassignment\assign2strlist.cs" />
+    <Compile Include="genric_nongenricassignment\assign3matrix.cs" />
+    <Compile Include="genric_nongenricassignment\assign4jagged.cs" />
+    <Compile Include="genric_nongenricassignment\listmethod.cs" />
+    <Compile Include="genric_nongenricassignment\stringfrequecy.cs" />
+    <Compile Include="hashtablepro\hashtable1.cs" />
+    <Compile Include="hashtablepro\sortedlist1.cs" />
+    <Compile Include="inheritance\assignment5.cs" />
+    <Compile Include="interfaceprogram\assign6.cs" />
+    <Compile Include="inheritance\assignment14Q.cs" />
+    <Compile Include="interfaceprogram\assignment7.cs" />
+    <Compile Include="inheritance\emp1.cs" />
+    <Compile Include="inheritance\empsale.cs" />
+    <Compile Include="inheritance\multilevel.cs" />
+    <Compile Include="inheritance\personpro.cs" />
+    <Compile Include="interfaceprogram\program1.cs" />
+    <Compile Include="interfaceprogram\secondpro.cs" />
+    <Compile Include="jagged array\bookpro.cs" />
+    <Compile Include="jagged array\employee.cs" />
+    <Compile Include="jagged array\jaggedarray1.cs" />
+    <Compile Include="logical1.cs" />
+    <Compile Include="logical2.cs" />
+    <Compile Include="moive.cs" />
+    <Compile Include="multithreadingpro\threaddemo.cs" />
+    <Compile Include="multithreadingpro\threadsychrozation_lock.cs" />
+    <Compile Include="nongenric\listpro.cs" />
+    <Compile Include="partialpro\program1.cs" />
+    <Compile Include="polymorphismpro\override1.cs" />
+    <Compile Include="practice\practice1.cs" />
+    <Compile Include="practice\practice2get.cs" />
+    <Compile Include="practice\pratsaticvar.cs" />
+    <Compile Include="practice\staticConst.cs" />
+    <Compile Include="prime.cs" />
+    <Compile Include="primearray.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductGet.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="property\autoimplementpro.cs" />
+    <Compile Include="property\student1.cs" />
+    <Compile Include="queuepro\queue1.cs" />
+    <Compile Include="refkeyprogram\refpro1.cs" />
+    <Compile Include="second test\construtoroverload.cs" />
+    <Compile Include="second test\findfactor.cs" />
+    <Compile Include="second test\for1_50.cs" />
+    <Compile Include="second test\harshad.cs" />
+    <Compile Include="second test\methodoverload.cs" />
+    <Compile Include="methodhide.cs" />
+    <Compile Include="staticpro\allstatic.cs" />
+    <Compile Include="staticpro\car.cs" />
+    <Compile Include="staticpro\car2obj.cs" />
+    <Compile Include="staticpro\changevalue.cs" />
+    <Compile Include="staticpro\programtest.cs" />
+    <Compile Include="stringassignement\anagramstring.cs" />
+    <Compile Include="stringassignement\ArrageNegativePositive.cs" />
+    <Compile Include="stringassignement\CheckEquality.cs" />
+    <Compile Include="stringassignement\countword.cs" />
+    <Compile Include="stringassignement\count_occurance.cs" />
+    <Compile Include="stringassignement\duplicateword.cs" />
+    <Compile Include="stringassignement\email.cs" />
+    <Compile Include="stringassignement\firstoccurance.cs" />
+    <Compile Include="stringassignement\frequency.cs" />
+    <Compile Include="stringassignement\indiareverse.cs" />
+    <Compile Include="stringassignement\longestword.cs" />
+    <Compile Include="stringassignement\ReplaceNegativewithSquare.cs" />
+    <Compile Include="stringassignement\ReverseNumber.cs" />
+    <Compile Include="stringassignement\reversestring.cs" />
+    <Compile Include="stringassignement\reverseword.cs" />
+    <Compile Include="stringassignement\revmoveoccarnce.cs" />
+    <Compile Include="stringassignement\specailchar.cs" />
+    <Compile Include="stringassignement\split2string.cs" />
+    <Compile Include="stringassignement\toggle.cs" />
+    <Compile Include="stringassignement\trimlead.cs" />
+    <Compile Include="stringassignement\unique1.cs" />
+    <Compile Include="stringbulidpro\stringbuilderPro.cs" />
+    <Compile Include="stringbulidpro\stringbulid1.cs" />
+    <Compile Include="stringfunc\string1.cs" />
+    <Compile Include="structurepro\firststrut.cs" />
+    <Compile Include="student.cs" />
+    <Compile Include="studentGet.cs" />
+    <Compile Include="sum1stDlastD.cs" />
+    <Compile Include="test24array\sumarray.cs" />
+    <Compile Include="stringassignement\vowel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
